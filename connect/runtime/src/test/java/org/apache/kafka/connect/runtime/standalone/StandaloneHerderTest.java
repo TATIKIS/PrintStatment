@@ -756,7 +756,7 @@ public class StandaloneHerderTest {
     @Test
     public void testAccessors() throws Exception {
         Map<String, String> connConfig = connectorConfig(SourceSink.SOURCE);
-        System.out.println(connConfig);
+        //System.out.println(connConfig); PrintStatment removido
 
         Callback<Collection<String>> listConnectorsCb = PowerMock.createMock(Callback.class);
         Callback<ConnectorInfo> connectorInfoCb = PowerMock.createMock(Callback.class);
